@@ -1,0 +1,96 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 13712
+
+Current time: 	3/18/21 3:50:17 PM PKT
+Time zone: 	Pakistan Time (Asia/Karachi)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	033-17-0024
+User home directory: C:/Users/033-17-0024
+User working directory: E:/Malak_DSD/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/033-17-0024/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/033-17-0024/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	217 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 545 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\Malak_DSD\project_1\project_1.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: open_project E:/Malak_DSD/project_1/project_1.xpr 
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 41 MB (+40565kb) [00:00:03]
+// [Engine Memory]: 501 MB (+374069kb) [00:00:03]
+// [GUI Memory]: 52 MB (+9202kb) [00:00:03]
+// [Engine Memory]: 530 MB (+3654kb) [00:00:03]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project E:/Malak_DSD/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 58 MB (+3306kb) [00:00:04]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1; location: E:/Malak_DSD/project_1; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 550 MB. GUI used memory: 35 MB. Current time: 3/18/21 3:50:19 PM PKT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Carry_LookAhead_Adder (Carry_LookAhead_Adder.v)]", 1, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Carry_LookAhead_Adder (Carry_LookAhead_Adder.v)]", 1, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Carry_LookAhead_Adder (Carry_LookAhead_Adder.v)]", 1, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Carry_LookAhead_Adder (Carry_LookAhead_Adder.v)]", 1, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [Engine Memory]: 557 MB (+739kb) [00:00:14]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 2); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, F_Adder.v]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, F_Adder.v]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 61 MB (+263kb) [00:00:21]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Half_Adder.v]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Half_Adder.v]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 64 MB (+546kb) [00:01:38]
+// [GUI Memory]: 69 MB (+1587kb) [00:01:53]
+// [GUI Memory]: 73 MB (+495kb) [00:05:34]
+// [GUI Memory]: 78 MB (+748kb) [00:13:47]
+// [GUI Memory]: 83 MB (+1539kb) [00:23:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 566 MB. GUI used memory: 38 MB. Current time: 3/18/21 4:20:22 PM PKT
+// [GUI Memory]: 87 MB (+4kb) [00:37:42]
